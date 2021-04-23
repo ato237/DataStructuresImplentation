@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="801.0" prefWidth="1058.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BSTController">
+   <children>
+      <HBox fx:id="hbox" layoutX="-6.0" layoutY="742.0" prefHeight="59.0" prefWidth="1071.0" style="-fx-background-color: #12142F;">
+         <children>
+            <JFXButton fx:id="insert" onAction="#insertValue" style="-fx-background-color: #161426;" text="Insert" textFill="WHITE" translateX="480.0" translateY="5.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+            <JFXTextField fx:id="field" alignment="TOP_LEFT" focusColor="BLACK" prefHeight="36.0" prefWidth="106.0" promptText="Enter number" style="-fx-background-color: #171426; -fx-font-style: #025A6C;" translateX="500.0" translateY="-10.0" unFocusColor="BLACK">
+               <HBox.margin>
+                  <Insets top="20.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Consolas" size="16.0" />
+               </font>
+            </JFXTextField>
+            <JFXButton fx:id="delete" layoutX="10.0" layoutY="10.0" onAction="#deleteValue" style="-fx-background-color: #161426;" text="Delete" textFill="WHITE" translateX="200.0" translateY="5.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </HBox>
+      <AnchorPane fx:id="bstPane" layoutX="37.0" layoutY="83.0" prefHeight="660.0" prefWidth="1021.0" />
+      <HBox layoutY="-7.0" prefHeight="75.0" prefWidth="1065.0" style="-fx-background-color: #12142F;">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Binary Search Tree" translateX="430.0" translateY="25.0">
+               <font>
+                  <Font name="Consolas" size="26.0" />
+               </font>
+            </Text>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

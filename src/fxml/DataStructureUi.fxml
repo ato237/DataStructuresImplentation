@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="801.0" prefWidth="1303.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LauncherController">
+    <children>
+        <VBox fx:id="verticalBox" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="210.0" layoutY="212.0" prefHeight="589.0" prefWidth="246.0" style="-fx-background-color: #12142F;">
+            <children>
+                <JFXButton fx:id="binarySearchTree" alignment="CENTER" onAction="#binarySearchTreePage" prefHeight="72.0" prefWidth="246.0" style="-fx-background-color: #12142F;" text="BinarySearchTree" textFill="WHITE">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="stack" alignment="CENTER" layoutX="10.0" layoutY="10.0" onAction="#stack" prefHeight="72.0" prefWidth="246.0" style="-fx-background-color: #12142F;" text="Stacks" textFill="WHITE">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="queues" alignment="CENTER" layoutX="10.0" layoutY="82.0" prefHeight="72.0" prefWidth="247.0" style="-fx-background-color: #12142F;" text="Queues" textFill="WHITE">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="linkedList" alignment="CENTER" layoutX="10.0" layoutY="154.0" prefHeight="72.0" prefWidth="248.0" style="-fx-background-color: #12142F;" text="LinkedLists" textFill="WHITE">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="map" alignment="CENTER" layoutX="10.0" layoutY="226.0" prefHeight="72.0" prefWidth="248.0" style="-fx-background-color: #12142F;" text="Maps" textFill="WHITE">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="sets" alignment="CENTER" layoutX="10.0" layoutY="298.0" prefHeight="72.0" prefWidth="246.0" style="-fx-background-color: #12142F;" text="Sets" textFill="WHITE">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="priorityQueue" alignment="CENTER" layoutX="10.0" layoutY="370.0" prefHeight="72.0" prefWidth="250.0" style="-fx-background-color: #12142F;" text="Priority Queues" textFill="WHITE">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="avlTree" alignment="CENTER" layoutX="10.0" layoutY="442.0" prefHeight="77.0" prefWidth="247.0" style="-fx-background-color: #12142F;" text="AVLTree" textFill="WHITE">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </JFXButton>
+            </children>
+        </VBox>
+      <VBox prefHeight="212.0" prefWidth="246.0" style="-fx-background-color: #12142F;">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Data Structures Animation" wrappingWidth="184.283203125">
+               <font>
+                  <Font name="Consolas" size="22.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="29.0" top="54.0" />
+               </VBox.margin>
+            </Text>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="BY ATO">
+               <VBox.margin>
+                  <Insets left="150.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Consolas" size="19.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+      <AnchorPane fx:id="rootPane" layoutX="246.0" prefHeight="801.0" prefWidth="1058.0" />
+    </children>
+</AnchorPane>
